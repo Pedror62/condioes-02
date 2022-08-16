@@ -1,0 +1,24 @@
+.boby   
+background-color: {rgb(230, 130, 0);
+    font: normal, 16pt, arial;
+}
+
+img{
+    border-bottom: 50%;
+    width:150px;
+    height:150px;
+}
+
+
+.div{
+    text-align: center;
+    padding:6px;
+
+}
+
+.section{
+    background-color:white;
+    border-radius:5px;
+    padding:10px;
+    margin:10px;
+}
