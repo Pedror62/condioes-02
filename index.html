@@ -11,25 +11,28 @@
 <body>
 
         <header>
-            <h1>Verificador De Idade</h1>
+            <div class="titule">
+                <h1>Verificador De Idade</h1>
+            </div>
+            
         </header>
         <section>
 
-                <div>
+                <div id="verificador">
                         <p>Ano de nascimento:
-                            <input type="number" name="txtano" id="txtano" min="0">
+                            <input type="number" name="txtano" id="txtano" min="0" required placeholder="Incira seu Ano de nascimento">
                         </p>
                         <p>Sexo:
-                                <input type="radio" name="radsex" id="mas" checked>
+                                <input type="radio" name="radsex" id="mas" checked >
                                 <label for="mas">masculino</label>
                                 <input type="radio" name="radsex" id="fem" >
                                 <label for="fem">feminino</label>
                         </p>
                         <p>
-                            <input type="button" value = "verificar" onclick = "verificar()">
+                            <input class="verificarBtn" type="button" value = "verificar" onclick = "verificar()">
                         </p>
                 </div>
-
+               
                 <div id="res">
                     Preencha os dados acima de acordo com solicitado!
                 </div>
